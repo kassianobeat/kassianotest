@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Breve descrição do seu produto ou serviço.">
+    <title>Nome do Produto/Serviço</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo CSS externo -->
+    <style>
+        /* Estilos básicos inline */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .hero {
+            padding: 50px 20px;
+            text-align: center;
+            background: url('background.jpg') no-repeat center center/cover;
+            color: #fff;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+        }
+
+        .cta-button {
+            background-color: #ff6600;
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 40px 20px;
+            background-color: #fff;
+        }
+
+        .feature {
+            flex: 1;
+            margin: 10px;
+            padding: 20px;
+            background-color: #e9e9e9;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .feature h3 {
+            margin-top: 0;
+        }
+
+        .testimonials {
+            padding: 40px 20px;
+            background-color: #f4f4f4;
+        }
+
+        .testimonial {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nome do Produto/Serviço</h1>
+        <p>Slogan ou frase de impacto aqui.</p>
+    </header>
+
+    <section class="hero">
+        <h1>Descubra o Produto/Serviço Incrível</h1>
+        <p>Uma breve descrição que chama a atenção do usuário e o incentiva a continuar lendo.</p>
+        <a href="#form" class="cta-button">Saiba Mais</a>
+    </section>
+
+    <section class="features">
+        <div class="feature">
+            <h3>Benefício 1</h3>
+            <p>Descrição curta do benefício.</p>
+        </div>
+        <div class="feature">
+            <h3>Benefício 2</h3>
+            <p>Descrição curta do benefício.</p>
+        </div>
+        <div class="feature">
+            <h3>Benefício 3</h3>
+            <p>Descrição curta do benefício.</p>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>O que nossos clientes dizem</h2>
+        <div class="testimonial">
+            <p>"Este produto mudou minha vida! Recomendo a todos!"</p>
+            <p>- Nome do Cliente</p>
+        </div>
+        <div class="testimonial">
+            <p>"A melhor escolha que fiz este ano. Excelente qualidade!"</p>
+            <p>- Nome do Cliente</p>
+        </div>
+    </section>
+
+    <section id="form" class="form-section">
+        <h2>Entre em Contato</h2>
+        <form action="submit.html" method="POST">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <br><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <iframe src="https://player.stage.beatstars.net/?storeId=128" width="100%" height="800" style="max-width:1024px;"> -- none -- </iframe>
+
+    <footer>
+        <p>&copy; 2024 Nome da Empresa. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
